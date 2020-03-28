@@ -1,8 +1,47 @@
+body{
+    background-color: rgb(43, 2, 2);
+}
 p{
     display:block;
 }
-
+nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    
+}
+h1{
+    color:rgb(231, 190, 190);
+}
+.navitem{
+    color: white; 
+    text-decoration: none;
+}
+.flex-container {
+    display: flex;
+    height: 600px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+  .image {
+      margin: 0 50px;
+  }
+  .FEEDBACK {
+      margin-left: 300px;
+  }
+  
 
 .video{
-    margin-left: 300px;
+    margin-left: 400px;
 }
